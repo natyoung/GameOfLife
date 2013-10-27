@@ -6,13 +6,13 @@ require_relative 'printer'
 class GameOfLife
   def initialize
     @seeds = []
-    @world = World.new(50, 150, @seeds)
+    @world = World.new(50, 200, @seeds)
     @world.matrix.each do |x|
       x.each do |cell|
         cell.alive = [true, false].sample
       end
     end
-    @game = Game.new(@world, 2000)
+    @game = Game.new(@world, 200000, Printer.new)
     @game.run
   end
 end

@@ -1,11 +1,11 @@
 class Game
   attr_reader :world, :live_list
 
-  def initialize(world, generations)
+  def initialize(world, generations, printer)
     @world = world
     @generations = generations
     @live_list = []
-    @printer = Printer.new()
+    @printer = printer
   end
 
   def tick!
@@ -29,7 +29,6 @@ class Game
 
   def run
     (1..@generations).each_with_index do |i|
-      system "clear" unless system "cls"
       @printer.print_matrix(@world.matrix, i)
       tick!
       @world.rebuild(@live_list)
