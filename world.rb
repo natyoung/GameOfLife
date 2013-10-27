@@ -1,7 +1,7 @@
 class World
   attr_reader :matrix
 
-  def initialize(rows=90, columns=180, seeds=[[40,40][41,40][42,40]])
+  def initialize(rows, columns, seeds)
     @rows = rows
     @columns = columns
     @matrix = build_matrix(rows, columns)
@@ -19,10 +19,15 @@ class World
   def count_alive_neighbors(cell)
     @neighbors = []
     @neighbor_positions.each do |nx, ny|
-      neighbor = @matrix[(cell.x + nx) % 5][(cell.y + ny)%8]
+      neighbor = @matrix[(cell.x + nx) % @rows][(cell.y + ny) % @columns]
       @neighbors << neighbor if !neighbor.nil? && neighbor.alive?
     end
     @neighbors
+  end
+
+  def rebuild(live_cells)
+    @matrix = build_matrix(@rows, @columns)
+    seed(live_cells)
   end
 
   private

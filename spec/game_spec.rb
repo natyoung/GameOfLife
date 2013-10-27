@@ -1,9 +1,11 @@
 require_relative '../world'
 require_relative '../game'
 require_relative '../cell'
+require_relative '../printer'
 
 describe Game do
-  let(:game) { Game.new(World.new(5, 8, [])) }
+  let (:world) { World.new(5, 8, []) }
+  let(:game) { Game.new(world, 1) }
   subject { game }
 
   before(:each) do
@@ -15,16 +17,14 @@ describe Game do
     it 'should kill a cell with 0 live neighbors' do
       subject.world.matrix[0][2].alive = true
       subject.tick!
-      subject.kill_list.include?(subject.world.matrix[0][2]).should be_true
+      subject.live_list.size.should == 0
     end
 
     it 'should kill a cell with 1 live neighbor' do
       subject.world.matrix[1][1].alive = true
       subject.world.matrix[1][2].alive = true
       subject.tick!
-      subject.kill_list.include?(subject.world.matrix[1][1]).should be_true
-      subject.kill_list.include?(subject.world.matrix[1][2]).should be_true
-      subject.kill_list.size.should == 2
+      subject.live_list.size.should == 0
     end
 
   end
@@ -42,8 +42,6 @@ describe Game do
       subject.live_list.include?(subject.world.matrix[2][1]).should be_true
       subject.live_list.include?(subject.world.matrix[1][0]).should be_true
       subject.live_list.size.should == 4
-      subject.kill_list.include?(subject.world.matrix[3][6]).should be_true
-      subject.kill_list.size.should == 1
     end
 
     it 'should kill a cell with more than three live neighbors' do
@@ -59,9 +57,6 @@ describe Game do
       subject.live_list.include?(subject.world.matrix[1][2]).should be_true
       subject.live_list.include?(subject.world.matrix[4][1]).should be_true
       subject.live_list.size.should == 5
-      subject.kill_list.include?(subject.world.matrix[0][1]).should be_true
-      subject.kill_list.include?(subject.world.matrix[1][1]).should be_true
-      subject.kill_list.size.should == 2
     end
 
   end

@@ -12,4 +12,8 @@ class Cell
     @alive
   end
 
+  def alive=(alive)
+    @alive = alive
+  end
+
 end
