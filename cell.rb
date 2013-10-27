@@ -11,4 +11,5 @@ class Cell
   def alive?
     @alive
   end
+
 end

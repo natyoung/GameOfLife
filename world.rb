@@ -1,47 +1,38 @@
 class World
-  attr_reader :matrix, :rows, :columns
+  attr_reader :matrix
 
-  def initialize(rows, columns)
+  def initialize(rows=90, columns=180, seeds=[[40,40][41,40][42,40]])
     @rows = rows
     @columns = columns
-    @matrix = create_matrix
+    @matrix = build_matrix(rows, columns)
+    @neighbor_positions = [[-1, 0],[1, 0],[-1, 1],[0, 1],[1, 1],[-1, -1],[0, -1], [1, -1]]
+    seed(seeds)
   end
 
   def seed(seeds)
-    seeds.each do |x, y|
-      @matrix[x][y].alive = true
+    seeds.each do |cell|
+      cell.alive = true
+      @matrix[cell.x][cell.y] = cell
     end
   end
 
-  def get_cell_at(x, y)
-    @matrix[x][y]
-  end
-
-  def get_all_cells
-    @matrix.flatten
-  end
-
-  def print_matrix
-    2.downto(0) do |x|
-      0.upto(2) do |y|
-        cell = @matrix[x][y]
-        status = cell.alive? ? 'A' : 'D'
-        print "[#{cell.x}#{cell.y}#{status}]"
-      end
-      print "\n"
+  def count_alive_neighbors(cell)
+    @neighbors = []
+    @neighbor_positions.each do |nx, ny|
+      neighbor = @matrix[(cell.x + nx) % 5][(cell.y + ny)%8]
+      @neighbors << neighbor if !neighbor.nil? && neighbor.alive?
     end
+    @neighbors
   end
 
   private
 
-  def create_matrix
-    @matrix = Array.new(@rows) { Array.new(@columns) }
-    2.downto(0) do |x|
-      0.upto(2) do |y|
-        @matrix[x][y] = Cell.new(x, y)
+  def build_matrix(rows, columns)
+    Array.new(rows) do |x|
+      Array.new(columns) do |y|
+        Cell.new(x, y)
       end
     end
-    @matrix
   end
 
 end
