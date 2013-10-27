@@ -28,9 +28,9 @@ class Game
   end
 
   def run
-    (1..@generations).each do
+    (1..@generations).each_with_index do |i|
       system "clear" unless system "cls"
-      @printer.print_matrix(@world.matrix)
+      @printer.print_matrix(@world.matrix, i)
       tick!
       @world.rebuild(@live_list)
       @live_list = []

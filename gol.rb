@@ -5,7 +5,7 @@ require_relative 'printer'
 
 class GameOfLife
   def initialize
-    @seeds = [Cell.new(1,1),Cell.new(1,2),Cell.new(1,3)]
+    @seeds = []
     @world = World.new(50, 150, @seeds)
     @world.matrix.each do |x|
       x.each do |cell|
