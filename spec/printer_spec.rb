@@ -11,7 +11,7 @@ describe Printer do
   subject { printer }
 
   it 'should print an alive Cell' do
-    output = capture_stdout { subject.print_matrix(matrix) }
+    output = capture_stdout { subject.print_matrix(matrix, 1) }
     output.string.include?('*').should be_true
   end
 end
