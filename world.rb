@@ -4,7 +4,7 @@ class World
   def initialize(rows, columns, live_cells)
     @rows = rows
     @columns = columns
-    @neighbor_positions = [[-1, 0],[1, 0],[-1, 1],[0, 1],[1, 1],[-1, -1],[0, -1], [1, -1]]
+    @neighbor_positions = [[-1, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, -1], [0, -1], [1, -1]]
     rebuild(live_cells)
   end
 

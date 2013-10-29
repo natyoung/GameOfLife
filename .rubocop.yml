@@ -17,8 +17,5 @@ IfUnlessModifier:
 LineLength:
   Enabled: false
 
-SpaceAfterComma:
-  Enabled: false
-
 TrivialAccessors:
   Enabled: false

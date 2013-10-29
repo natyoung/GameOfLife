@@ -6,7 +6,7 @@ require 'stringio'
 
 describe Printer do
   let(:printer) { Printer.new }
-  let(:world) { World.new(5, 8, [Cell.new(1,1)]) }
+  let(:world) { World.new(5, 8, [Cell.new(1, 1)]) }
   let(:matrix) { world.matrix }
   subject { printer }
 
