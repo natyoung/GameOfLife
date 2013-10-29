@@ -20,4 +20,4 @@ end
 if $0 == __FILE__
   GameOfLife.new
 end
-#./gol.rb
+# ./gol.rb
