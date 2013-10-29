@@ -16,7 +16,7 @@ class World
   end
 
   def find_alive_neighbors(cell)
-    @neighbor_positions.find_all do |nx, ny|
+    @neighbor_positions.select do |nx, ny|
       neighbor = @matrix[(cell.x + nx) % @rows][(cell.y + ny) % @columns]
       (!neighbor.nil? && neighbor.alive?)
     end
