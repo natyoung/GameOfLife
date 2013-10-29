@@ -11,7 +11,6 @@ describe World do
 
   it 'should have a 2D array of Cells' do
     subject.matrix[4][7].is_a?(Cell).should be_true
-    subject.matrix[4][7].alive = true
   end
 
   it 'should initialise with all dead Cells' do
