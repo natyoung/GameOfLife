@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require_relative 'cell'
 require_relative 'world'
 require_relative 'game'
@@ -7,14 +9,15 @@ class GameOfLife
   def initialize
     @seeds = []
     @world = World.new(50, 200, @seeds)
-    @world.matrix.each do |x|
-      x.each do |cell|
-        cell.alive = [true, false].sample
-      end
+    @world.cells.each do |cell|
+      cell.alive = [true, false].sample
     end
     @game = Game.new(@world, 200000, Printer.new)
     @game.run
   end
 end
 
-#ruby -r "./gol.rb" -e "GameOfLife.new"
+if $0 == __FILE__
+  GameOfLife.new
+end
+#./gol.rb
