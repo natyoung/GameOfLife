@@ -20,9 +20,6 @@ LineLength:
 SpaceAfterComma:
   Enabled: false
 
-SpaceAroundBlockBraces:
-  Enabled: false
-
 StringLiterals:
   Enabled: false
 

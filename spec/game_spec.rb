@@ -9,7 +9,7 @@ describe Game do
   subject { game }
 
   before(:each) do
-    subject.world.cells.each { |cell| cell.alive = false}
+    subject.world.cells.each { |cell| cell.alive = false }
   end
 
   context 'Any live cell with fewer than two live neighbours dies.' do

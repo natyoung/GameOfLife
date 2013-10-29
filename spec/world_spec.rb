@@ -14,7 +14,7 @@ describe World do
   end
 
   it 'should initialise with all dead Cells' do
-    subject.matrix.flatten.each { |c| c.alive?.should be_false}
+    subject.matrix.flatten.each { |c| c.alive?.should be_false }
   end
 
   describe '.seed' do
