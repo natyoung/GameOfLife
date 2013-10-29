@@ -26,8 +26,5 @@ SpaceAroundBlockBraces:
 StringLiterals:
   Enabled: false
 
-TrailingBlankLines:
-  Enabled: false
-
 TrivialAccessors:
   Enabled: false

@@ -84,6 +84,4 @@ describe World do
       subject.find_alive_neighbors(cell).size.should == 4
     end
   end
-
 end
-
