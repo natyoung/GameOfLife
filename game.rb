@@ -15,7 +15,7 @@ class Game
   end
 
   def add_to_live_list_if_conditions_met(cell)
-    alive_neighbors = @world.count_alive_neighbors(cell)
+    alive_neighbors = @world.find_alive_neighbors(cell)
     if cell.alive?
       if [2, 3].include?(alive_neighbors.size)
         @live_list << cell

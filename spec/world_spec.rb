@@ -32,56 +32,56 @@ describe World do
     it 'should detect Cell to north' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(1,2)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to south' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(3,2)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to east' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(2,3)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to west' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(2,1)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to north-east' do
       cell = Cell.new(2,0)
       subject.seed([Cell.new(1,1)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to north-west' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(1,1)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to south-east' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(3,3)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
     it 'should detect Cell to south-west' do
       cell = Cell.new(2,2)
       subject.seed([Cell.new(3,1)])
-      subject.count_alive_neighbors(cell).size.should == 1
+      subject.find_alive_neighbors(cell).size.should == 1
     end
 
     it 'should not detect neighbors around lone Cell' do
       cell = Cell.new(2,2)
       seeds = [Cell.new(0,0)]
       subject.seed(seeds)
-      subject.count_alive_neighbors(cell).size.should == 0
+      subject.find_alive_neighbors(cell).size.should == 0
     end
 
     it 'should be infinite' do
       cell = Cell.new(0,0)
       seeds = [Cell.new(4,7),Cell.new(4,0),Cell.new(0,7),Cell.new(4,1)]
       subject.seed(seeds)
-      subject.count_alive_neighbors(cell).size.should == 4
+      subject.find_alive_neighbors(cell).size.should == 4
     end
   end
 

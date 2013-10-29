@@ -15,13 +15,11 @@ class World
     end
   end
 
-  def count_alive_neighbors(cell)
-    @neighbors = []
-    @neighbor_positions.each do |nx, ny|
+  def find_alive_neighbors(cell)
+    @neighbor_positions.find_all do |nx, ny|
       neighbor = @matrix[(cell.x + nx) % @rows][(cell.y + ny) % @columns]
-      @neighbors << neighbor if !neighbor.nil? && neighbor.alive?
+      (!neighbor.nil? && neighbor.alive?)
     end
-    @neighbors
   end
 
   def rebuild(live_cells)
