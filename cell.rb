@@ -11,9 +11,4 @@ class Cell
   def alive?
     @alive
   end
-
-  def alive=(alive)
-    @alive = alive
-  end
-
 end
