@@ -12,7 +12,7 @@ class GameOfLife
     @world.cells.each do |cell|
       cell.alive = [true, false].sample
     end
-    @game = Game.new(@world, 200000, Printer.new)
+    @game = Game.new(@world, 200_000, Printer.new)
     @game.run
   end
 end

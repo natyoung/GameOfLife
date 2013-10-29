@@ -17,9 +17,6 @@ IfUnlessModifier:
 LineLength:
   Enabled: false
 
-NumericLiterals:
-  Enabled: false
-
 ParenthesesAsGroupedExpression:
   Enabled: false
 
