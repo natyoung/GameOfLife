@@ -17,9 +17,6 @@ IfUnlessModifier:
 LineLength:
   Enabled: false
 
-MethodCallParentheses:
-  Enabled: false
-
 NumericLiterals:
   Enabled: false
 
