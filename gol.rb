@@ -17,7 +17,7 @@ class GameOfLife
   end
 end
 
-if $0 == __FILE__
+if $PROGRAM_NAME == __FILE__
   GameOfLife.new
 end
 # ./gol.rb
