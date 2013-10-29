@@ -1,12 +1,11 @@
 class World
   attr_reader :matrix
 
-  def initialize(rows, columns, seeds)
+  def initialize(rows, columns, live_cells)
     @rows = rows
     @columns = columns
-    @matrix = build_matrix(rows, columns)
     @neighbor_positions = [[-1, 0],[1, 0],[-1, 1],[0, 1],[1, 1],[-1, -1],[0, -1], [1, -1]]
-    seed(seeds)
+    rebuild(live_cells)
   end
 
   def seed(live_cells)
