@@ -4,7 +4,7 @@ require_relative '../cell'
 require_relative '../printer'
 
 describe Game do
-  let (:world) { World.new(5, 8, []) }
+  let(:world) { World.new(5, 8, []) }
   let(:game) { Game.new(world, 1, Printer.new) }
   subject { game }
 
