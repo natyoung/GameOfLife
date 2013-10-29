@@ -28,7 +28,7 @@ class Game
   end
 
   def run
-    (1..@generations).each_with_index do |i|
+    (1..@generations).each do |i|
       @printer.print_matrix(@world.matrix, i)
       tick!
       @world.rebuild(@live_list)
