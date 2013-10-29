@@ -30,6 +30,10 @@ class World
     seed(live_cells)
   end
 
+  def cells
+    @matrix.flatten
+  end
+
   private
 
   def build_matrix(rows, columns)

@@ -9,10 +9,8 @@ class Game
   end
 
   def tick!
-    @world.matrix.each do |row|
-      row.each do |cell|
-        add_to_live_list_if_conditions_met(cell)
-      end
+    @world.cells.each do |cell|
+      add_to_live_list_if_conditions_met(cell)
     end
   end
 
