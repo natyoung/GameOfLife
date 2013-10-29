@@ -20,8 +20,5 @@ LineLength:
 SpaceAfterComma:
   Enabled: false
 
-StringLiterals:
-  Enabled: false
-
 TrivialAccessors:
   Enabled: false
