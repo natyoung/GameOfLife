@@ -9,8 +9,8 @@ class World
     seed(seeds)
   end
 
-  def seed(seeds)
-    seeds.each do |cell|
+  def seed(live_cells)
+    live_cells.each do |cell|
       cell.alive = true
       @matrix[cell.x][cell.y] = cell
     end
