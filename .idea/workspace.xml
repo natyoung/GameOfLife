@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f828b6d2-8af2-4013-995f-7d38525f9e8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/point.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/point_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game.rb" afterPath="$PROJECT_DIR$/lib/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/game_spec.rb" afterPath="$PROJECT_DIR$/spec/game_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/printer.rb" afterPath="$PROJECT_DIR$/lib/printer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/printer_spec.rb" afterPath="$PROJECT_DIR$/spec/printer_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/runner.rb" afterPath="$PROJECT_DIR$/lib/runner.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/world.rb" afterPath="$PROJECT_DIR$/lib/world.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/world_spec.rb" afterPath="$PROJECT_DIR$/spec/world_spec.rb" />
     </list>
@@ -17,8 +10,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384670950634" ignored="false" />
     <file path="/cell_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384669932669" ignored="false" />
-    <file path="/world_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384672244231" ignored="false" />
-    <file path="/world.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673234927" ignored="false" />
+    <file path="/world_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384674447091" ignored="false" />
+    <file path="/world.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384674249142" ignored="false" />
     <file path="/cell.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383033431526" ignored="false" />
     <file path="/game_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673662748" ignored="false" />
     <file path="/game.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673683787" ignored="false" />
@@ -68,7 +61,7 @@
     <file path="$USER_HOME$/dev/getup/Tijuana/spec/models/call_mp_module_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383535498535" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/helpers/application_helper.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383543900833" ignored="false" />
     <file path="/application_helper.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383543898186" ignored="false" />
-    <file path="/runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384670251577" ignored="false" />
+    <file path="/runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384674362121" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/lib/runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384670353792" ignored="false" />
     <file path="/point_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384671929504" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,19 +99,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="world.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="world.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/world.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="11" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+                <state line="36" column="33" selection-start="846" selection-end="846" vertical-scroll-proportion="1.2587413">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="game.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/game.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.6040724">
+                <state line="26" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="runner.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/runner.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="17" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -128,28 +130,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="world_spec.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="world_spec.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="5" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="game_spec.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="printer_spec.rb" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="26" selection-start="338" selection-end="338" vertical-scroll-proportion="0.40723982">
+                <state line="11" column="24" selection-start="250" selection-end="250" vertical-scroll-proportion="0.3846154">
                   <folding />
                 </state>
               </provider>
@@ -175,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/game_runner.rb" />
         <option value="$PROJECT_DIR$/cell.rb" />
         <option value="$PROJECT_DIR$/game.rb" />
         <option value="$PROJECT_DIR$/gol.rb" />
@@ -185,12 +168,13 @@
         <option value="$PROJECT_DIR$/spec/cell_spec.rb" />
         <option value="$PROJECT_DIR$/spec/point_spec.rb" />
         <option value="$PROJECT_DIR$/lib/point.rb" />
-        <option value="$PROJECT_DIR$/lib/world.rb" />
-        <option value="$PROJECT_DIR$/spec/world_spec.rb" />
         <option value="$PROJECT_DIR$/lib/game.rb" />
         <option value="$PROJECT_DIR$/spec/game_spec.rb" />
         <option value="$PROJECT_DIR$/spec/printer_spec.rb" />
         <option value="$PROJECT_DIR$/lib/printer.rb" />
+        <option value="$PROJECT_DIR$/lib/world.rb" />
+        <option value="$PROJECT_DIR$/lib/runner.rb" />
+        <option value="$PROJECT_DIR$/spec/world_spec.rb" />
       </list>
     </option>
   </component>
@@ -777,11 +761,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/rake/file_utils.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.34166667" />
@@ -837,27 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/world.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/printer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="25" selection-start="165" selection-end="165" vertical-scroll-proportion="0.20361991">
@@ -867,14 +825,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="338" selection-end="338" vertical-scroll-proportion="0.40723982">
+        <state line="9" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.30542988">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.6040724">
+        <state line="26" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/runner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="250" selection-end="250" vertical-scroll-proportion="0.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/world.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="33" selection-start="846" selection-end="846" vertical-scroll-proportion="1.2587413">
           <folding />
         </state>
       </provider>

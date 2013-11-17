@@ -74,5 +74,9 @@ describe World do
       subject.seed(seeds)
       subject.find_alive_neighbors(0, 0).size.should == 4
     end
+
+    it 'should randomly seed' do
+
+    end
   end
 end

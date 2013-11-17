@@ -30,6 +30,14 @@ class World
     @matrix.flatten
   end
 
+  def randomly_seed
+    live_cells = []
+    @matrix.each do |x|
+      x.each { |p| live_cells << Cell.new(p.x, p.y) if [true, false].sample }
+    end
+    seed(live_cells)
+  end
+
   private
 
   def build_matrix(rows, columns)
