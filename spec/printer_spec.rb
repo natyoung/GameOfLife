@@ -1,6 +1,7 @@
 require_relative '../lib/printer'
 require_relative '../lib/world'
 require_relative '../lib/game'
+require_relative '../lib/point'
 require_relative '../lib/cell'
 require 'stringio'
 

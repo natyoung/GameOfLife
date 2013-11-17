@@ -1,5 +1,6 @@
 require_relative '../lib/world'
 require_relative '../lib/game'
+require_relative '../lib/point'
 require_relative '../lib/cell'
 require_relative '../lib/printer'
 
@@ -9,22 +10,22 @@ describe Game do
   subject { game }
 
   before(:each) do
-    subject.world.cells.each { |cell| cell.alive = false }
+    subject.world.points.each { |p| p.kill_cell }
   end
 
   context 'Any live cell with fewer than two live neighbours dies.' do
 
     it 'should kill a cell with 0 live neighbors' do
-      subject.world.matrix[0][2].alive = true
+      subject.world.matrix[0][2].revive_cell
       subject.tick!
-      subject.live_list.size.should == 0
+      subject.live_cell_list.size.should == 0
     end
 
     it 'should kill a cell with 1 live neighbor' do
-      subject.world.matrix[1][1].alive = true
-      subject.world.matrix[1][2].alive = true
+      subject.world.matrix[1][1].revive_cell
+      subject.world.matrix[1][2].revive_cell
       subject.tick!
-      subject.live_list.size.should == 0
+      subject.live_cell_list.size.should == 0
     end
 
   end
@@ -32,31 +33,31 @@ describe Game do
   context 'Any live cell with two or three live neighbours lives on to the next generation.' do
 
     it 'should not kill a cell with 2 live neighbors' do
-      subject.world.matrix[1][1].alive = true
-      subject.world.matrix[2][0].alive = true
-      subject.world.matrix[2][1].alive = true
-      subject.world.matrix[3][6].alive = true
+      subject.world.matrix[1][1].revive_cell
+      subject.world.matrix[2][0].revive_cell
+      subject.world.matrix[2][1].revive_cell
+      subject.world.matrix[3][6].revive_cell
       subject.tick!
-      subject.live_list.include?(subject.world.matrix[1][1]).should be_true
-      subject.live_list.include?(subject.world.matrix[2][0]).should be_true
-      subject.live_list.include?(subject.world.matrix[2][1]).should be_true
-      subject.live_list.include?(subject.world.matrix[1][0]).should be_true
-      subject.live_list.size.should == 4
+      subject.live_cell_list.include?(subject.world.matrix[1][1]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[2][0]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[2][1]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[1][0]).should be_true
+      subject.live_cell_list.size.should == 4
     end
 
     it 'should kill a cell with more than three live neighbors' do
-      subject.world.matrix[0][0].alive = true
-      subject.world.matrix[0][1].alive = true
-      subject.world.matrix[0][2].alive = true
-      subject.world.matrix[1][0].alive = true
-      subject.world.matrix[1][1].alive = true
+      subject.world.matrix[0][0].revive_cell
+      subject.world.matrix[0][1].revive_cell
+      subject.world.matrix[0][2].revive_cell
+      subject.world.matrix[1][0].revive_cell
+      subject.world.matrix[1][1].revive_cell
       subject.tick!
-      subject.live_list.include?(subject.world.matrix[0][0]).should be_true
-      subject.live_list.include?(subject.world.matrix[0][2]).should be_true
-      subject.live_list.include?(subject.world.matrix[1][0]).should be_true
-      subject.live_list.include?(subject.world.matrix[1][2]).should be_true
-      subject.live_list.include?(subject.world.matrix[4][1]).should be_true
-      subject.live_list.size.should == 5
+      subject.live_cell_list.include?(subject.world.matrix[0][0]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[0][2]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[1][0]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[1][2]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[4][1]).should be_true
+      subject.live_cell_list.size.should == 5
     end
 
   end
@@ -64,12 +65,12 @@ describe Game do
   context 'Any dead cell with exactly three live neighbours becomes a live cell.' do
 
     it 'should revive a cell with three live neighbors' do
-      subject.world.matrix[0][0].alive = true
-      subject.world.matrix[0][1].alive = true
-      subject.world.matrix[1][0].alive = true
-      subject.world.matrix[1][1].alive?.should be_false
+      subject.world.matrix[0][0].revive_cell
+      subject.world.matrix[0][1].revive_cell
+      subject.world.matrix[1][0].revive_cell
+      subject.world.matrix[1][1].cell_alive?.should be_false
       subject.tick!
-      subject.live_list.include?(subject.world.matrix[1][1]).should be_true
+      subject.live_cell_list.include?(subject.world.matrix[1][1]).should be_true
     end
 
   end

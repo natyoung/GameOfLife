@@ -9,7 +9,7 @@ class GameOfLife
   def initialize
     @seeds = []
     @world = World.new(50, 200, @seeds)
-    @world.cells.each do |cell|
+    @world.points.each do |cell|
       cell.alive = [true, false].sample
     end
     @game = Game.new(@world, 200_000, Printer.new)

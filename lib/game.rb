@@ -1,27 +1,27 @@
 class Game
-  attr_reader :world, :live_list
+  attr_reader :world, :live_cell_list
 
   def initialize(world, generations, printer)
     @world = world
     @generations = generations
-    @live_list = []
+    @live_cell_list = []
     @printer = printer
   end
 
   def tick!
-    @world.cells.each do |cell|
-      add_to_live_list_if_conditions_met(cell)
+    @world.points.each do |point|
+      revive_cell_if_conditions_met(point)
     end
   end
 
-  def add_to_live_list_if_conditions_met(cell)
-    alive_neighbors = @world.find_alive_neighbors(cell)
-    if cell.alive?
+  def revive_cell_if_conditions_met(point)
+    alive_neighbors = @world.find_alive_neighbors(point.x, point.y)
+    if point.cell_alive?
       if [2, 3].include?(alive_neighbors.size)
-        @live_list << cell
+        @live_cell_list << point
       end
     elsif alive_neighbors.size == 3
-      @live_list << cell
+      @live_cell_list << point
     end
   end
 
@@ -29,8 +29,8 @@ class Game
     (1..@generations).each do |i|
       @printer.print_matrix(@world.matrix, i)
       tick!
-      @world.rebuild(@live_list)
-      @live_list = []
+      @world.rebuild(@live_cell_list)
+      @live_cell_list = []
       sleep 0.1
     end
   end

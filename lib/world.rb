@@ -10,15 +10,14 @@ class World
 
   def seed(live_cells)
     live_cells.each do |cell|
-      cell.alive = true
-      @matrix[cell.x][cell.y] = cell
+      @matrix[cell.x][cell.y].revive_cell
     end
   end
 
-  def find_alive_neighbors(cell)
+  def find_alive_neighbors(x, y)
     @neighbor_positions.select do |nx, ny|
-      neighbor = @matrix[(cell.x + nx) % @rows][(cell.y + ny) % @columns]
-      (!neighbor.nil? && neighbor.alive?)
+      neighbor = @matrix[(x + nx) % @rows][(y + ny) % @columns]
+      (!neighbor.nil? && neighbor.cell_alive?)
     end
   end
 
@@ -27,7 +26,7 @@ class World
     seed(live_cells)
   end
 
-  def cells
+  def points
     @matrix.flatten
   end
 
@@ -36,7 +35,7 @@ class World
   def build_matrix(rows, columns)
     Array.new(rows) do |x|
       Array.new(columns) do |y|
-        Cell.new(x, y)
+        Point.new(x, y)
       end
     end
   end
