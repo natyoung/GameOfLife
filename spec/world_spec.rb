@@ -1,5 +1,5 @@
-require_relative '../world'
-require_relative '../cell'
+require_relative '../lib/world'
+require_relative '../lib/cell'
 
 describe World do
   let(:world) { World.new(5, 8, []) }

@@ -1,7 +1,7 @@
-require_relative '../printer'
-require_relative '../world'
-require_relative '../game'
-require_relative '../cell'
+require_relative '../lib/printer'
+require_relative '../lib/world'
+require_relative '../lib/game'
+require_relative '../lib/cell'
 require 'stringio'
 
 describe Printer do

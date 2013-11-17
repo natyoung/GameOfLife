@@ -1,7 +1,7 @@
-require_relative '../world'
-require_relative '../game'
-require_relative '../cell'
-require_relative '../printer'
+require_relative '../lib/world'
+require_relative '../lib/game'
+require_relative '../lib/cell'
+require_relative '../lib/printer'
 
 describe Game do
   let(:world) { World.new(5, 8, []) }

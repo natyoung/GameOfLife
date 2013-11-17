@@ -1,4 +1,4 @@
-require_relative '../cell'
+require_relative '../lib/cell'
 
 describe Cell do
   let(:cell) { Cell.new(1, 1) }
