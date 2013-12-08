@@ -7,9 +7,13 @@ require 'stringio'
 
 describe Printer do
   let(:printer) { Printer.new }
-  let(:world) { World.new(5, 8, [Cell.new(1, 1)]) }
+  let(:world) { World.new(5, 8, []) }
   let(:matrix) { world.matrix }
   subject { printer }
+
+  before :each do
+    world.regenerate([Cell.new(1, 1)])
+  end
 
   it 'should print an alive Cell' do
     output = capture_stdout { subject.print_matrix(matrix, 1) }

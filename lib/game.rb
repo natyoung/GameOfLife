@@ -1,11 +1,23 @@
 class Game
   attr_reader :world, :live_cell_list
 
-  def initialize(world, generations, printer)
+  def initialize(world, ants, generations, printer)
     @world = world
+    @ants = ants
     @generations = generations
     @live_cell_list = []
     @printer = printer
+  end
+
+  def run
+    (1..@generations).each do |i|
+      @printer.print_matrix(@world.matrix, i)
+      tick!
+      @ants.each { |a| a.move }
+      @world.regenerate(@live_cell_list)
+      @live_cell_list = []
+      sleep 0.1
+    end
   end
 
   def tick!
@@ -13,6 +25,8 @@ class Game
       revive_cell_if_conditions_met(point)
     end
   end
+
+  private
 
   def revive_cell_if_conditions_met(point)
     alive_neighbors = @world.find_alive_neighbors(point.x, point.y)
@@ -24,15 +38,4 @@ class Game
       @live_cell_list << point
     end
   end
-
-  def run
-    (1..@generations).each do |i|
-      @printer.print_matrix(@world.matrix, i)
-      tick!
-      @world.rebuild(@live_cell_list)
-      @live_cell_list = []
-      sleep 0.1
-    end
-  end
-
 end

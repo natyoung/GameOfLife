@@ -7,29 +7,24 @@ describe World do
   subject { world }
 
   before(:each) do
-    subject.matrix.flatten.each { |p| p.kill_cell }
-  end
-
-  it 'should have a 2D array of Points' do
-    subject.matrix[4][7].is_a?(Point).should be_true
+    subject.points.each { |p| p.kill_cell }
   end
 
   it 'should initialise with all dead Cells' do
-    subject.matrix.flatten.each { |p| p.cell_alive?.should be_false }
+    subject.points.each { |p| p.cell_alive?.should be_false }
   end
 
   describe '.seed' do
     it 'should bring the seed Cells to life' do
       seeds = [Cell.new(1, 0), Cell.new(0, 2)]
       subject.seed(seeds)
-      subject.matrix[1][0].cell_alive?.should be_true
-      subject.matrix[0][2].cell_alive?.should be_true
-      subject.matrix[1][1].cell_alive?.should be_false
+      subject.point(1, 0).cell_alive?.should be_true
+      subject.point(0, 2).cell_alive?.should be_true
+      subject.point(1, 1).cell_alive?.should be_false
     end
   end
 
   describe '.get_neighbor_cell_count' do
-
     it 'should detect Cell to north' do
       subject.seed([Cell.new(1, 2)])
       subject.find_alive_neighbors(2, 2).size.should == 1
@@ -74,7 +69,5 @@ describe World do
       subject.seed(seeds)
       subject.find_alive_neighbors(0, 0).size.should == 4
     end
-
   end
-
 end

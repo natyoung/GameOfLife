@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f828b6d2-8af2-4013-995f-7d38525f9e8f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.rubocop.yml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ant/ant.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ant/ant_factory.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/ant_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game.rb" afterPath="$PROJECT_DIR$/lib/game.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/game_spec.rb" afterPath="$PROJECT_DIR$/spec/game_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/point.rb" afterPath="$PROJECT_DIR$/lib/point.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/printer.rb" afterPath="$PROJECT_DIR$/lib/printer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/printer_spec.rb" afterPath="$PROJECT_DIR$/spec/printer_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/runner.rb" afterPath="$PROJECT_DIR$/lib/runner.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/world.rb" afterPath="$PROJECT_DIR$/lib/world.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/world_spec.rb" afterPath="$PROJECT_DIR$/spec/world_spec.rb" />
     </list>
     <ignored path="GameOfLife.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386477417108" ignored="false" />
     <file path="/cell_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384669932669" ignored="false" />
-    <file path="/world_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384675208812" ignored="false" />
-    <file path="/world.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384674249142" ignored="false" />
+    <file path="/world_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386481835324" ignored="false" />
+    <file path="/world.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386484459104" ignored="false" />
     <file path="/cell.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383033431526" ignored="false" />
-    <file path="/game_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673662748" ignored="false" />
-    <file path="/game.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673683787" ignored="false" />
+    <file path="/game_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386481882225" ignored="false" />
+    <file path="/game.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386482538824" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/db/schema.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383112834120" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/views/mps/_target_field.html.haml" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382569429814" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/views/mps/select_senator.html.haml" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382569429814" ignored="false" />
@@ -27,28 +35,28 @@
     <file path="$USER_HOME$/dev/getup/Tijuana/spec/lib/weekly_donation_statistics_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382660217109" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/lib/weekly_donation_statistics.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382660217109" ignored="false" />
     <file path="/weekly_donation_statistics.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382571568459" ignored="false" />
-    <file path="/temp.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386305092207" ignored="false" />
+    <file path="/temp.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386484467941" ignored="false" />
     <file path="/fragment.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386224409959" ignored="false" />
     <file path="/window.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382782572678" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/views/tech_mailer/_donation_statistics.html.haml" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382660172002" ignored="false" />
-    <file path="/printer.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673783660" ignored="false" />
-    <file path="/printer_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384673741506" ignored="false" />
+    <file path="/printer.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386484776264" ignored="false" />
+    <file path="/printer_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386482230476" ignored="false" />
     <file path="/game_runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382858027946" ignored="false" />
     <file path="/game_runner_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382855507168" ignored="false" />
     <file path="/gol.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383039964850" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/servers/lib/tasks/content.rake" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382945783918" ignored="false" />
     <file path="/content.rake" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1382941865447" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/spec/ant_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383398444817" ignored="false" />
-    <file path="/ant_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383398444445" ignored="false" />
+    <file path="/ant_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386481857963" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/lib/ant.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383398338842" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/lib/world.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383400302250" ignored="false" />
     <file path="/ant.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383398338539" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/lib/point.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383399199561" ignored="false" />
-    <file path="/point.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384672636046" ignored="false" />
+    <file path="/point.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386484679819" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/spec/world_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383396979457" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/lib/ant_factory.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383398398153" ignored="false" />
     <file path="/ant_factory.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383398397738" ignored="false" />
-    <file path="$PROJECT_DIR$/../LantonsAnt/lib/printer.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383433291738" ignored="false" />
+    <file path="$PROJECT_DIR$/../LantonsAnt/lib/printer.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386483882773" ignored="false" />
     <file path="/a.dummy" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386217531696" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/assets/javascripts/public/lookupmp.js" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383523552301" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/views/pages/content_modules/_call_mp_module.html.haml" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383535230228" ignored="false" />
@@ -62,7 +70,7 @@
     <file path="$USER_HOME$/dev/getup/Tijuana/spec/models/call_mp_module_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383535498535" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/helpers/application_helper.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383543900833" ignored="false" />
     <file path="/application_helper.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1383543898186" ignored="false" />
-    <file path="/runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386140215083" ignored="false" />
+    <file path="/runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386482649061" ignored="false" />
     <file path="$PROJECT_DIR$/../LantonsAnt/lib/runner.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386140069766" ignored="false" />
     <file path="/point_spec.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1384671929504" ignored="false" />
     <file path="$USER_HOME$/dev/getup/Tijuana/app/models/user.rb" changelist="f828b6d2-8af2-4013-995f-7d38525f9e8f" time="1386287827188" ignored="false" />
@@ -107,62 +115,70 @@
     <favorites_list name="GameOfLife" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="point.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/point.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="15" selection-start="78" selection-end="78" vertical-scroll-proportion="0.15212981">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="printer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/printer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cell.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cell.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="world.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/world.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runner.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/runner.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="printer.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/printer.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="8" selection-start="585" selection-end="585" vertical-scroll-proportion="0.53216374">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="point.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/point.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="5" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ant_spec.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/ant_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="46" selection-start="246" selection-end="288" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="world_spec.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="46" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="game_spec.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="9" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="printer_spec.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.26900584">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -180,22 +196,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cell.rb" />
-        <option value="$PROJECT_DIR$/game.rb" />
-        <option value="$PROJECT_DIR$/gol.rb" />
         <option value="$PROJECT_DIR$/printer.rb" />
         <option value="$PROJECT_DIR$/world.rb" />
         <option value="$PROJECT_DIR$/.rubocop.yml" />
         <option value="$PROJECT_DIR$/spec/point_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/point.rb" />
-        <option value="$PROJECT_DIR$/lib/game.rb" />
-        <option value="$PROJECT_DIR$/spec/game_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/printer_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/printer.rb" />
-        <option value="$PROJECT_DIR$/spec/world_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/runner.rb" />
         <option value="$PROJECT_DIR$/spec/cell_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/ant/ant.rb" />
+        <option value="$PROJECT_DIR$/lib/ant/ant_factory.rb" />
+        <option value="$PROJECT_DIR$/spec/ant_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/world_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/printer_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/game_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/runner.rb" />
+        <option value="$PROJECT_DIR$/lib/game.rb" />
         <option value="$PROJECT_DIR$/lib/world.rb" />
+        <option value="$PROJECT_DIR$/lib/point.rb" />
+        <option value="$PROJECT_DIR$/lib/printer.rb" />
       </list>
     </option>
   </component>
@@ -267,6 +283,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -288,7 +322,7 @@
     </key>
   </component>
   <component name="RunManager" selected="RSpec.all in spec">
-    <configuration default="false" name="World.get_neighbor_cell_count should detect Cell to north-east" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="Printer should print an alive Cell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="GameOfLife" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -308,10 +342,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/world_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/printer_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="World.get_neighbor_cell_count should detect Cell to north-east" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Printer should print an alive Cell" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -356,7 +390,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="game_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="Printer should print an ant" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="GameOfLife" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -376,10 +410,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/printer_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Printer should print an ant" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -424,7 +458,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Printer" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="game_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="GameOfLife" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -444,10 +478,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/printer_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/game_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Printer" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -605,21 +639,21 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.World.get_neighbor_cell_count should detect Cell to north-east" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.world_spec" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.game_spec" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.printer_spec" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Printer" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.World.seed should bring the seed Cells to life" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.all in spec" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.World.seed should bring the seed Cells to life" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.all in spec" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Printer should print an alive Cell" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.world_spec" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Printer should print an ant" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.printer_spec" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.game_spec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Printer" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.printer_spec" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.game_spec" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.game_spec" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.game_spec" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.game_spec" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.game_spec" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.printer_spec" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Printer should print an ant" />
       </list>
     </recent_temporary>
   </component>
@@ -684,19 +718,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5738126" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13916786" sideWeight="0.66880614" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33719432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1241033" sideWeight="0.6962677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590734" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14490674" sideWeight="0.27284428" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33119383" sideWeight="0.1638207" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951094" sideWeight="0.8361793" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951094" sideWeight="0.1743185" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037323" sideWeight="0.8256815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989704" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -768,27 +802,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="159" />
+      <option name="time" value="160" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/rake/file_utils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.34166667" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392/gems/rspec-core-2.14.6/lib/rspec/core/memoized_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="0" selection-start="6885" selection-end="6885" vertical-scroll-proportion="0.33259425" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392/gems/rspec-expectations-2.14.3/lib/rspec/expectations/syntax.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="0" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.4009434" />
@@ -804,21 +821,6 @@
         <state line="2" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.050083473" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.30542988" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="28" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2395" selection-end="2395" vertical-scroll-proportion="0.75524473" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/cell_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.15212981">
@@ -826,44 +828,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/runner.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="9" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="0.2631579">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/printer.rb">
+    <entry file="file://$PROJECT_DIR$/spec/ant_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+        <state line="9" column="46" selection-start="246" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ant/ant_factory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="363" selection-end="363" vertical-scroll-proportion="0.48979592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/runner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.26900584">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/world.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+        <state line="25" column="41" selection-start="705" selection-end="705" vertical-scroll-proportion="0.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ant/ant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="217" selection-end="217" vertical-scroll-proportion="0.3508772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="40" selection-start="398" selection-end="398" vertical-scroll-proportion="0.46783626">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/point.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="78" selection-end="78" vertical-scroll-proportion="0.15212981">
+        <state line="38" column="5" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/printer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="8" selection-start="585" selection-end="585" vertical-scroll-proportion="0.53216374">
           <folding />
         </state>
       </provider>
