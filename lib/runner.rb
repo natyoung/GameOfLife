@@ -7,16 +7,20 @@ require_relative 'game'
 require_relative 'printer'
 
 class GameOfLife
-  def initialize
+  def initialize(rows, columns, generations)
     @seeds = []
-    @world = World.new(50, 150, @seeds)
+    @world = World.new(rows, columns, @seeds)
     @world.randomly_seed
-    @game = Game.new(@world, 200_000, Printer.new)
+    @game = Game.new(@world, generations, Printer.new)
     @game.run
   end
 end
 
 if $PROGRAM_NAME == __FILE__
-  GameOfLife.new
+  if ARGV.length == 3
+    GameOfLife.new(ARGV[0].to_i, ARGV[1].to_i, ARGV[2].to_i)
+  else
+    puts 'usage: ./runner.rb [rows] [columns] [generations]'
+  end
 end
 # ./runner.rb
