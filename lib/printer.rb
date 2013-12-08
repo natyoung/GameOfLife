@@ -22,7 +22,7 @@ class Printer
     if point.colour == :black
       print colorize('+', colour_code)
     elsif point.cell_alive?
-      print '*'
+      print '+'
     else
       print colorize(' ', colour_code)
     end

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f828b6d2-8af2-4013-995f-7d38525f9e8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ant/ant.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ant/ant_factory.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/ant_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game.rb" afterPath="$PROJECT_DIR$/lib/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/game_spec.rb" afterPath="$PROJECT_DIR$/spec/game_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/point.rb" afterPath="$PROJECT_DIR$/lib/point.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/printer.rb" afterPath="$PROJECT_DIR$/lib/printer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/printer_spec.rb" afterPath="$PROJECT_DIR$/spec/printer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/runner.rb" afterPath="$PROJECT_DIR$/lib/runner.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/world.rb" afterPath="$PROJECT_DIR$/lib/world.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/world_spec.rb" afterPath="$PROJECT_DIR$/spec/world_spec.rb" />
     </list>
     <ignored path="GameOfLife.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,10 +109,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="printer.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="printer.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/printer.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="8" selection-start="585" selection-end="585" vertical-scroll-proportion="0.53216374">
+                <state line="22" column="17" selection-start="511" selection-end="511" vertical-scroll-proportion="0.64327484">
                   <folding />
                 </state>
               </provider>
@@ -143,7 +134,7 @@
           <file leaf-file-name="ant_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/ant_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="46" selection-start="246" selection-end="288" vertical-scroll-proportion="0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -152,7 +143,7 @@
           <file leaf-file-name="world_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="46" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -167,10 +158,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="printer_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="printer_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.26900584">
+                <state line="19" column="29" selection-start="519" selection-end="519" vertical-scroll-proportion="0.5555556">
                   <folding />
                 </state>
               </provider>
@@ -205,13 +196,13 @@
         <option value="$PROJECT_DIR$/lib/ant/ant_factory.rb" />
         <option value="$PROJECT_DIR$/spec/ant_spec.rb" />
         <option value="$PROJECT_DIR$/spec/world_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/printer_spec.rb" />
         <option value="$PROJECT_DIR$/spec/game_spec.rb" />
         <option value="$PROJECT_DIR$/lib/runner.rb" />
         <option value="$PROJECT_DIR$/lib/game.rb" />
         <option value="$PROJECT_DIR$/lib/world.rb" />
         <option value="$PROJECT_DIR$/lib/point.rb" />
         <option value="$PROJECT_DIR$/lib/printer.rb" />
+        <option value="$PROJECT_DIR$/spec/printer_spec.rb" />
       </list>
     </option>
   </component>
@@ -725,7 +716,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590734" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14490674" sideWeight="0.27284428" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951094" sideWeight="0.1743185" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037323" sideWeight="0.8256815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037323" sideWeight="0.8256815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -835,20 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/ant_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="246" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ant/ant_factory.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="36" selection-start="363" selection-end="363" vertical-scroll-proportion="0.48979592">
@@ -866,13 +843,6 @@
     <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="9" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="324" selection-end="324" vertical-scroll-proportion="0.26900584">
           <folding />
         </state>
       </provider>
@@ -907,7 +877,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/printer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="585" selection-end="585" vertical-scroll-proportion="0.53216374">
+        <state line="22" column="17" selection-start="511" selection-end="511" vertical-scroll-proportion="0.64327484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/world_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ant_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/printer_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="519" selection-end="519" vertical-scroll-proportion="0.5555556">
           <folding />
         </state>
       </provider>
